@@ -40,7 +40,7 @@ const App = () => {
 
 	return (
 		<ThemeProvider theme={mainTheme}>
-			<div className="App">
+			<div>
 				<form className={classes.form}>
 					<TextField
 						label="name"
